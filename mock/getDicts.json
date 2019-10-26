@@ -1,0 +1,48 @@
+{
+    "retcode": 0,
+    "data": {
+        "list": [
+            {
+                "id": 27189,
+                "enName": "singer_strong",
+                "zhName": "sys.热门歌手",
+                "regular": "/^singer_strong$/",
+                "example": "刘德华，薛之谦",
+                "type": 0
+            },
+            {
+                "id": 27189,
+                "enName": "singer_strong",
+                "zhName": "sys.热门歌手",
+                "regular": "/^singer_strong$/",
+                "example": "刘德华，薛之谦",
+                "type": 0
+            },
+            {
+                "id": 27189,
+                "enName": "singer_strong",
+                "zhName": "sys.热门歌手",
+                "regular": "/^singer_strong$/",
+                "example": "刘德华，薛之谦",
+                "type": 0
+            },
+            {
+                "id": 27189,
+                "enName": "singer_strong",
+                "zhName": "sys.热门歌手",
+                "regular": "/^singer_strong$/",
+                "example": "刘德华，薛之谦",
+                "type": 1
+            },
+            {
+                "id": 27189,
+                "enName": "singer_strong",
+                "zhName": "sys.热门歌手",
+                "regular": "/^singer_strong$/",
+                "example": "刘德华，薛之谦",
+                "type": 1
+            }
+        ],
+        "count": 2
+    }
+}

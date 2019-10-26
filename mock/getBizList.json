@@ -1,0 +1,20 @@
+{
+    "retcode": 0,
+    "data": {
+        "list": [
+            {
+                "bid": 27189,
+                "enName": "xzp123",
+                "zhName": "无问西东",
+                "active": false
+            },
+            {
+                "bid": 27589,
+                "enName": "wangyuwangka",
+                "zhName": "网鱼网咖",
+                "active": true
+            }
+        ],
+        "count": 2
+    }
+}

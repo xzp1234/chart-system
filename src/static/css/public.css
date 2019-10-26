@@ -1,0 +1,29 @@
+.float-right {
+    float: right;
+}
+.float-left {
+    float: left;
+}
+.clear {
+    clear: both;
+}
+.el-drawer {
+    width: 450px!important;
+}
+.el-drawer .el-drawer__header {
+    margin-bottom: 0;
+}
+.el-drawer .el-drawer__body {
+    height: 100%;
+    padding: 0 20px 20px;
+}
+.demo-drawer__content {
+    height: 100%
+}
+.el-table .cell{
+    margin-left: 20px;
+}
+
+.el-table thead th {
+    background-color: rgba(235, 235, 235, 0.2);
+}
