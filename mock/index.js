@@ -72,3 +72,20 @@ Mock.mock(/..\/getKeFuDebugResult/, 'get', getKeFuDebugResult);
 // 获取JSON
 let getJSON = require('./getJSON.json');
 Mock.mock(/..\/getJSON/, 'get', getJSON);
+
+// 保存机器人信息
+let saveBatInfo = require('./saveBatInfo.json');
+Mock.mock(/..\/saveBatInfo/, 'post', saveBatInfo);
+
+
+// 删除机器人信息
+let deleteBat = require('./deleteBat.json');
+Mock.mock(/..\/deleteBat/, 'post', deleteBat);
+
+// 查询日志
+let queryLoggerList = require('./queryLoggerList.json');
+Mock.mock(/..\/queryLoggerList/, 'get', queryLoggerList);
+
+// 查询用户LIST
+let queryUserList = require('./queryUserList.json');
+Mock.mock(/..\/queryUserList/, 'get', queryUserList);

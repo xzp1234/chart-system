@@ -1,0 +1,33 @@
+{
+    "retcode": 0,
+    "data": {
+        "list": [
+            {
+                "userId": "222",
+                "role": "1",
+                "remark": "无问东西"
+            },
+            {
+                "userId": "95443",
+                "role": "1",
+                "remark": "无问东西"
+            },
+            {
+                "userId": "664",
+                "role": "1",
+                "remark": "无问东西"
+            },
+            {
+                "userId": "677",
+                "role": "1",
+                "remark": "无问东西"
+            },
+            {
+                "userId": "077",
+                "role": "1",
+                "remark": "无问东西"
+            }
+        ],
+        "count": 5
+    }
+}

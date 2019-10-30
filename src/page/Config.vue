@@ -206,7 +206,9 @@ export default {
         this.$axios.post(url, param, succFn, errFn);
     },
     setConfig() {
-
+        this.$router.push({
+            name: "manage"
+        })
     },
     debuggHandle() {
           this.showDialog = true;
