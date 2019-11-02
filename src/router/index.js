@@ -3,6 +3,8 @@ import Router from 'vue-router'
 import Home from '@/page/Home'
 import Config from '@/page/Config'
 import Manage from '@/page/Manage'
+import Statistic from '@/page/Statistic'
+import Chart from '@/page/Chart'
 import MyBat from '@/components/MyBat'
 import Skill from '@/components/Skill'
 import Logger from '@/components/Logger'
@@ -17,6 +19,16 @@ export default new Router({
       path: '/',
       name: 'home',
       component: Home
+    },
+    {
+      path: '/statistic',
+      name: 'statistic',
+      component: Statistic
+    },
+    {
+      path: '/chart',
+      name: 'chart',
+      component: Chart
     },
     {
         path: '/config',

@@ -1,0 +1,98 @@
+{
+    "retcode": 0,
+    "data": {
+        "list": [
+            {
+                "date": "2019-10-24",
+                "todayNewUserCount": 12,
+                "newUserScale": "30%",
+                "skillCoverScale": "20%",
+                "todayActiveUserCount": 40,
+                "sevenDayAverageActiveDayCount": 2,
+                "thirtyDayAverageActiveDayCount": 1,
+                "todayUserCount": 36,
+                "todayConversationCount": 345,
+                "displeasureConversationCount": 34,
+                "displeasureScale": "23%",
+                "averageConversationLength": 20,
+                "userTotalCount": 237
+            },
+            {
+                "date": "2019-10-24",
+                "todayNewUserCount": 12,
+                "newUserScale": "30%",
+                "skillCoverScale": "20%",
+                "todayActiveUserCount": 40,
+                "sevenDayAverageActiveDayCount": 2,
+                "thirtyDayAverageActiveDayCount": 1,
+                "todayUserCount": 36,
+                "todayConversationCount": 345,
+                "displeasureConversationCount": 34,
+                "displeasureScale": "23%",
+                "averageConversationLength": 20,
+                "userTotalCount": 237
+            },
+            {
+                "date": "2019-10-24",
+                "todayNewUserCount": 12,
+                "newUserScale": "30%",
+                "skillCoverScale": "20%",
+                "todayActiveUserCount": 40,
+                "sevenDayAverageActiveDayCount": 2,
+                "thirtyDayAverageActiveDayCount": 1,
+                "todayUserCount": 36,
+                "todayConversationCount": 345,
+                "displeasureConversationCount": 34,
+                "displeasureScale": "23%",
+                "averageConversationLength": 20,
+                "userTotalCount": 237
+            },
+            {
+                "date": "2019-10-24",
+                "todayNewUserCount": 12,
+                "newUserScale": "30%",
+                "skillCoverScale": "20%",
+                "todayActiveUserCount": 40,
+                "sevenDayAverageActiveDayCount": 2,
+                "thirtyDayAverageActiveDayCount": 1,
+                "todayUserCount": 36,
+                "todayConversationCount": 345,
+                "displeasureConversationCount": 34,
+                "displeasureScale": "23%",
+                "averageConversationLength": 20,
+                "userTotalCount": 237
+            },
+            {
+                "date": "2019-10-24",
+                "todayNewUserCount": 12,
+                "newUserScale": "30%",
+                "skillCoverScale": "20%",
+                "todayActiveUserCount": 40,
+                "sevenDayAverageActiveDayCount": 2,
+                "thirtyDayAverageActiveDayCount": 1,
+                "todayUserCount": 36,
+                "todayConversationCount": 345,
+                "displeasureConversationCount": 34,
+                "displeasureScale": "23%",
+                "averageConversationLength": 20,
+                "userTotalCount": 237
+            },
+            {
+                "date": "2019-10-24",
+                "todayNewUserCount": 12,
+                "newUserScale": "30%",
+                "skillCoverScale": "20%",
+                "todayActiveUserCount": 40,
+                "sevenDayAverageActiveDayCount": 2,
+                "thirtyDayAverageActiveDayCount": 1,
+                "todayUserCount": 36,
+                "todayConversationCount": 345,
+                "displeasureConversationCount": 34,
+                "displeasureScale": "23%",
+                "averageConversationLength": 20,
+                "userTotalCount": 237
+            }
+        ],
+        "count": 6
+    }
+}

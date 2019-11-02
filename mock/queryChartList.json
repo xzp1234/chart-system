@@ -1,0 +1,43 @@
+{
+    "retcode": 0,
+    "data": {
+        "list": [
+            {
+                "query": "我想听周杰伦的歌曲",
+                "answer": {
+                    "type": "1",
+                    "message": "没有这首歌"
+                }
+            },
+            {
+                "query": "我想听周杰伦的歌曲",
+                "answer": {
+                    "type": "1",
+                    "message": "没有这首歌"
+                }
+            },
+            {
+                "query": "我想听周杰伦的歌曲",
+                "answer": {
+                    "type": "1",
+                    "message": "没有这首歌"
+                }
+            },
+            {
+                "query": "我想听周杰伦的歌曲",
+                "answer": {
+                    "type": "1",
+                    "message": "没有这首歌"
+                }
+            },
+            {
+                "query": "我想听周杰伦的歌曲",
+                "answer": {
+                    "type": "1",
+                    "message": "没有这首歌"
+                }
+            }
+        ],
+        "count": 2
+    }
+}

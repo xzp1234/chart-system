@@ -20,14 +20,14 @@
             <div class="operate">
                 <div class="download">
                     <div>
-                        <el-dropdown>
+                        <el-dropdown @command="handleCommand">
                             <span class="el-dropdown-link">
                                 批量操作<i class="el-icon-arrow-down el-icon--right"></i>
                             </span>
                             <el-dropdown-menu slot="dropdown">
-                                <el-dropdown-item>批量上传</el-dropdown-item>
-                                <el-dropdown-item>批量下载</el-dropdown-item>
-                                <el-dropdown-item>技能转换</el-dropdown-item>
+                                <el-dropdown-item command="mutilUpload">批量上传</el-dropdown-item>
+                                <el-dropdown-item command="mutilDownload">批量下载</el-dropdown-item>
+                                <el-dropdown-item command="mutilTransfer">技能转换</el-dropdown-item>
                             </el-dropdown-menu>
                         </el-dropdown>
                         <span class="example-link">
@@ -51,6 +51,21 @@
                 </template>
             </el-table-column>
         </el-table>
+        <!-- 新增字典 -->
+        <el-dialog title="批量上传" :visible.sync="uploadDlg">
+            <el-upload
+                class="upload-demo"
+                ref="upload"
+                action="http://localhost:8080/uploadFile"
+                :file-list="fileList"
+                :on-success="handleSuccss"
+                :on-error="handleErrof"
+                :auto-upload="false">
+                <el-button slot="trigger" size="small" type="primary">选取文件</el-button>
+                <el-button style="margin-left: 10px;" size="small" type="success" @click="submitUpload">上传到服务器</el-button>
+                <div slot="tip" class="el-upload__tip">只能上传jpg/png文件，且不超过500kb</div>
+            </el-upload>
+        </el-dialog>
     </div>
 </template>
 <script>
@@ -58,10 +73,32 @@ export default {
     data() {
         return {
             key: '',
-            tableData: []
+            tableData: [],
+            uploadDlg: false,
+            fileList: []
         };
     },
     methods: {
+        handleSuccss(res) {
+            if (res.retcode == 0) {
+                this.uploadDlg = false;
+                this.$message({
+                    type: "success",
+                    message: "上传成功"
+                });
+            } else {
+                this.$message({
+                    type: "error",
+                    message: "上传失败"
+                });
+            }
+        },
+        handleErrof() {
+            this.$message({
+                type: "error",
+                message: "上传失败"
+            });
+        },
         querySearch() {
 
         },
@@ -172,6 +209,39 @@ export default {
             };
 
             this.$axios.get(url, param, succFn, errFn);
+        },
+        handleCommand(com) {
+            if (com == 'mutilUpload') {
+                this.uploadDlg = true;
+            }
+            if (com == 'mutilDownload') {
+                this.mutilDownload();
+            }
+        },
+        submitUpload() {
+            this.$refs.upload.submit();
+        },
+        mutilDownload() {
+            let url = '/mutilDownload';
+            let param = {
+               
+            };
+            let succFn = res => {
+                if (res.retcode == 0) {
+                   this.$message({
+                        type: "success",
+                        message: "下载成功"
+                    })
+                }
+            };
+            let errFn = err => {
+                this.$message({
+                    type: "error",
+                    message: "下载失败"
+                })
+            };
+
+            this.$axios.post(url, param, succFn, errFn);
         }
     },
     created() {

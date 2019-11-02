@@ -1,0 +1,32 @@
+{
+    "retcode": 0,
+    "data": {
+        "list": [
+            {
+                "classId": "1",
+                "userRealQuestion": "今天去哪里吃饭",
+                "batAnswer": "别吃了，减肥吧",
+                "answerBlong": "文本会话",
+                "frequency": 2,
+                "classTotalFrequency": 54
+            },
+            {
+                "classId": "1",
+                "userRealQuestion": "今天去哪里吃饭",
+                "batAnswer": "别吃了，减肥吧",
+                "answerBlong": "文本会话",
+                "frequency": 2,
+                "classTotalFrequency": 54
+            },
+            {
+                "classId": "1",
+                "userRealQuestion": "今天去哪里吃饭",
+                "batAnswer": "别吃了，减肥吧",
+                "answerBlong": "文本会话",
+                "frequency": 2,
+                "classTotalFrequency": 54
+            }
+        ],
+        "count": 3
+    }
+}

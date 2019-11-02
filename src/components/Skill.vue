@@ -44,11 +44,11 @@
                       </div>
                       <div class="bottom">
                           <div class="top_detail">
-                              <span class="see">
+                              <span class="see" @click="openChart">
                                   <img src="../static/img/see.png" alt="">
                                   对话记录
                               </span>
-                              <span class="see statisticsee">
+                              <span class="see statisticsee" @click="openStatic">
                                   <img src="../static/img/statics.png" alt="">
                                   统计详情
                               </span>
@@ -186,6 +186,16 @@ export default {
             };
 
             this.$axios.get(url, param, succFn, errFn);
+        },
+        openStatic() {
+            this.$router.push({
+                name: 'statistic'
+            })
+        },
+        openChart() {
+            this.$router.push({
+                name: 'chart'
+            })
         }
     },
     components: {

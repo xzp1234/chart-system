@@ -1,0 +1,40 @@
+{
+    "retcode": 0,
+    "data": {
+        "list": [
+            {
+                "conversationCount": 12,
+                "activeUserCount": 56,
+                "textQuestionScale": "20%",
+                "voiceQuestionScale": "3%",
+                "uselessAnswer": 31,
+                "uselessAnswerScale": "45%"
+            },
+            {
+                "conversationCount": 12,
+                "activeUserCount": 56,
+                "textQuestionScale": "20%",
+                "voiceQuestionScale": "3%",
+                "uselessAnswer": 31,
+                "uselessAnswerScale": "45%"
+            },
+            {
+                "conversationCount": 12,
+                "activeUserCount": 56,
+                "textQuestionScale": "20%",
+                "voiceQuestionScale": "3%",
+                "uselessAnswer": 31,
+                "uselessAnswerScale": "45%"
+            },
+            {
+                "conversationCount": 12,
+                "activeUserCount": 56,
+                "textQuestionScale": "20%",
+                "voiceQuestionScale": "3%",
+                "uselessAnswer": 31,
+                "uselessAnswerScale": "45%"
+            }
+        ],
+        "count": 4
+    }
+}

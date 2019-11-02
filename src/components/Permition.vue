@@ -96,7 +96,23 @@ export default {
             this.$axios.get(url, {}, succFn, errFn);
         },
         addUser() {
+            let url = "/addUser";
+            let succFn = res => {
+                if (res.retcode == 0) {
+                    this.$message({
+                        type: "success",
+                        message: "添加成功"
+                    });
+                }
+            };
+            let errFn = err => {
+                this.$message({
+                    type: "error",
+                    message: "添加失败"
+                });
+            };
 
+            this.$axios.post(url, {}, succFn, errFn);
         }
     },
     created() {

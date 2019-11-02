@@ -89,3 +89,31 @@ Mock.mock(/..\/queryLoggerList/, 'get', queryLoggerList);
 // 查询用户LIST
 let queryUserList = require('./queryUserList.json');
 Mock.mock(/..\/queryUserList/, 'get', queryUserList);
+
+// 查询会话数据
+let queryConversation = require('./queryConversation.json');
+Mock.mock(/..\/queryConversation/, 'get', queryConversation);
+
+// 查询用户数据
+let queryUserData = require('./queryUserData.json');
+Mock.mock(/..\/queryUserData/, 'get', queryUserData);
+
+// 查询类别数据
+let queryClassData = require('./queryClassData.json');
+Mock.mock(/..\/queryClassData/, 'get', queryClassData);
+
+// 查询消息记录
+let queryChartList = require('./queryChartList.json');
+Mock.mock(/..\/queryChartList/, 'get', queryChartList);
+
+// 上传文件
+let uploadFile = require('./uploadFile.json');
+Mock.mock(/..\/uploadFile/, 'post', uploadFile);
+
+// 批量下载
+let mutilDownload = require('./mutilDownload.json');
+Mock.mock(/..\/mutilDownload/, 'post', mutilDownload);
+
+// 添加用户
+let addUser = require('./addUser.json');
+Mock.mock(/..\/addUser/, 'post', addUser);

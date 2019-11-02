@@ -1,12 +1,14 @@
 <template>
   <div id="app">
-    <el-container class="app-container">
-        <el-header class="header-container">
-            <c-header></c-header>
-        </el-header>
-        <el-main class="main-container"><router-view></router-view></el-main>
-        <!-- <el-footer>Footer</el-footer> -->
-    </el-container>
+    <el-scrollbar style="height: 100%">
+        <el-container class="app-container">
+          <el-header class="header-container">
+              <c-header></c-header>
+          </el-header>
+          <el-main class="main-container"><router-view></router-view></el-main>
+          <!-- <el-footer>Footer</el-footer> -->
+      </el-container>
+    </el-scrollbar>
   </div>
 </template>
 
@@ -22,6 +24,7 @@ export default {
 
 <style>
 #app {
+  height: 100%;
   width: 100%;
 }
 .header-container {

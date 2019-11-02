@@ -27,3 +27,7 @@
 .el-table thead th {
     background-color: rgba(235, 235, 235, 0.2);
 }
+
+.chart-table thead {
+    display: none;
+}
